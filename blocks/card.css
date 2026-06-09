@@ -1,11 +1,14 @@
 .card__image {
-width: 413px;
-height: 413px;
-
+  height: 413px;
+  width: 413px;
+  object-fit: cover;
+  display: block;
 }
 
 .card__content {
-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card__like-btn {
